@@ -1,0 +1,12 @@
+name: pyjet
+channels:
+  - defaults
+dependencies:
+ - python=3
+ - numpy=1.15
+ - pip
+ - pip:
+    - pygame==2.6.0
+    - pyopengl==3.1.5
+    - pyopengl-accelerate==3.1.5
+    - pygame_gui 0.6.12
